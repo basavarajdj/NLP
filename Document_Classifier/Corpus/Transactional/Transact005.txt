@@ -1,0 +1,35 @@
+EMPLOYEE SALARY SLIP
+Date From 01-Jan-2014 To 31-Jan-2014
+Employee Details
+Employee Name : Shivlal Ramnikbhai Sheladiya
+Employee Code : ES450
+Date of Joining : 11-Nov-2013
+Department : Technical
+Designation : Junior Web Developer
+Attendance Details
+Total Working Days: 31 Day(s)
+Present Days: 30.50 Day(s)
+Late Coming 2.00 Day(s)
+Half Day 0.50 Day(s)
+Salary Details
+Earning Deduction
+Basic Salary 8093.00
+Professional
+Tax
+80.00
+Conveyance
+Allowance
+0.00 Deposit: 4167.00
+HRA 0.00
+Loyalty Bonus 0.00
+Medical
+Allowance
+0.00
+Paid Leave 0.00
+Stipend 0.00
+Total Earnings :- 8093.00 Total Deduction :- 4247.00
+Net Salary Amount Payable: Rs. 3846.00 (Three Thousand Eight Hundred Fourty Six Only)
+Salary credited in employee bank account number
+Strictly Confidential
+Payslip has been issued in good faith and it is never to be disclosed or divulged to third parties.
+Breach of confidentiality will be dealt as per company norms.
