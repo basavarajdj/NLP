@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title> Senti-Hash </title>
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}"/>
+        <link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.ico') }}"/>
+</head>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <h2><a class="navbar-brand" href="#">Senti-Hash </a></h2>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+     
+	 <a href="/download/" target="blank">
+         <button class='btn btn-default' style="margin-left:20px;margin-top:20px">Download Tweets File
+                     <span class="glyphicon glyphicon-download-alt"></span></button></a>
+	 
+      </li>
+    </ul>
+	
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<body> 
+      {% block content %}   
+	  <center> <h3>{{titles}}</h3> </center>
+	  
+	<div class="row">
+		<div class="col-md-4">
+			<img class="grid_img" src="{{ url_for('static', filename='images/'+file_names[0]) }}"/>
+		</div>
+		
+		<div class="col-md-4">
+			<img class="grid_img" src="{{ url_for('static', filename='images/'+file_names[1]) }}"/>
+		</div>
+		
+		<div class="col-md-4">
+			<img class="grid_img" src="{{ url_for('static', filename='images/'+file_names[2]) }}"/>
+		</div>
+	</div>
+		
+      {% endblock %}
+</body>
+
+<style>
+.grid_img{
+	width:100%;
+}
+</style>
+</html>
